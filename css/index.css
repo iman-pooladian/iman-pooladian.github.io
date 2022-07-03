@@ -97,7 +97,7 @@
     font-weight: 600;
   }
   .custom-height {
-    height: 90vh;
+    height: 100vh;
   }
   .picture-tag {
     bottom: 0;
@@ -107,7 +107,7 @@
     background-color: rgba(63, 63, 63, 0.253);
   }
   .profile-pics {
-    width: 20vw;
+    width: 18vw;
     border-radius: 100%;
   }
   .custom-font--paragraph {
@@ -119,6 +119,71 @@
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .navbar-brand {
-    width: 17vw;
+    width: 14vw;
   }
+
+  .progress {
+    height: 2vh;
+  }
+  .percentage {
+    font-weight: 600;
+  }
+  .custom-height {
+    height: 100vh;
+  }
+  .picture-tag {
+    bottom: 0;
+    left: 15px;
+    color: aliceblue;
+    font-family: "Titan one";
+    background-color: rgba(63, 63, 63, 0.253);
+  }
+  .profile-pics {
+    width: 15vw;
+    border-radius: 100%;
+  }
+  .custom-font--paragraph {
+    font-size: calc(6px + 1vw);
+  }
+  .custom-font--heading {
+    font-size: calc(8px + 1vw);
+  }
+
+
 }
+@media all and (min-width:992px)  and (max-width:1199px){
+  
+.custom-width{
+  width: 12vw;
+}
+
+  .progress {
+    height: 2vh;
+  }
+  .percentage {
+    font-weight: 600;
+  }
+  .custom-height {
+    height: 100vh;
+  }
+  .picture-tag {
+    bottom: 0;
+    left: 15px;
+    color: aliceblue;
+    font-family: "Titan one";
+    background-color: rgba(63, 63, 63, 0.253);
+  }
+  .profile-pics {
+    width: 15vw;
+    border-radius: 100%;
+  }
+  .custom-font--paragraph {
+    font-size: calc(6px + 1vw);
+  }
+  .custom-font--heading {
+    font-size: calc(8px + 1vw);
+  }
+
+
+}
+
