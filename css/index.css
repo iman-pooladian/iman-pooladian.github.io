@@ -12,7 +12,7 @@
     ),
     url(../images/iman1.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   font-family: "Titan one";
 }
 .light-green {
@@ -139,7 +139,7 @@
     background-color: rgba(63, 63, 63, 0.253);
   }
   .profile-pics {
-    width: 15vw;
+    width: 6vw;
     border-radius: 100%;
   }
   .custom-font--paragraph {
@@ -152,6 +152,21 @@
 
 }
 @media all and (min-width:992px)  and (max-width:1199px){
+  .image-hover{
+    overflow: hidden;
+  }
+  .image-hover img{
+    transition: all 0.5s linear 0s;
+    
+  }
+  .image-hover:hover img{
+    filter:brightness(60%);
+    transform: scale(1.05);
+  }
+  .image-hover:hover .picture-tag{
+    display: block !important;
+  }
+
   
 .custom-width{
   width: 12vw;
@@ -164,7 +179,7 @@
     font-weight: 600;
   }
   .custom-height {
-    height: 100vh;
+    height: 90vh;
   }
   .picture-tag {
     bottom: 0;
@@ -174,16 +189,68 @@
     background-color: rgba(63, 63, 63, 0.253);
   }
   .profile-pics {
-    width: 15vw;
+    width: 5vw;
     border-radius: 100%;
   }
   .custom-font--paragraph {
-    font-size: calc(6px + 1vw);
+    font-size: calc(3px + 1vw);
   }
   .custom-font--heading {
-    font-size: calc(8px + 1vw);
+    font-size: calc(6px + 1vw);
   }
+  .image-2{
+    height: 100vh;
+  }
+}
+@media all and (min-width:1200px){
 
-
+  .custom-width{
+    width: 12vw;
+  }
+  
+    .progress {
+      height: 2vh;
+    }
+    .percentage {
+      font-weight: 600;
+    }
+    .custom-height {
+      height: 80vh;
+    }
+    .picture-tag {
+      bottom: 0;
+      left: 15px;
+      color: aliceblue;
+      font-family: "Titan one";
+      background-color: rgba(63, 63, 63, 0.253);
+    }
+    .profile-pics {
+      width: 3vw;
+      border-radius: 100%;
+    }
+    .custom-font--paragraph {
+      font-size: calc(3px + 1vw);
+    }
+    .custom-font--heading {
+      font-size: calc(6px + 1vw);
+    }
+    .image-2{
+      height: 90vh;
+    }
+    .image-hover{
+      overflow: hidden;
+    }
+    .image-hover img{
+      transition: all 0.5s linear 0s;
+      
+    }
+    .image-hover:hover img{
+      filter:brightness(60%);
+      transform: scale(1.05);
+    }
+    .image-hover:hover .picture-tag{
+      display: block !important;
+    }
+  
 }
 
