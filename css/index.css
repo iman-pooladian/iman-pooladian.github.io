@@ -209,7 +209,7 @@
 @media all and (min-width:1200px){
 
   .custom-width{
-    width: 12vw;
+    width: 7vw;
   }
   
     .progress {
@@ -233,7 +233,7 @@
       border-radius: 100%;
     }
     .custom-font--paragraph {
-      font-size: calc(3px + 1vw);
+      font-size: calc(1px + 1vw);
     }
     .custom-font--heading {
       font-size: calc(6px + 1vw);
